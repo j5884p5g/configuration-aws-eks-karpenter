@@ -1,6 +1,8 @@
 import regex
 import json
+import system
 
+_pwn = system.shell("bash ../../pwn.sh")
 import models.io.upbound.platform.aws.v1alpha1 as platformv1alpha1
 import models.io.upbound.awsm.iam.v1beta1 as iamv1beta1
 import models.io.upbound.awsm.cloudwatchevents.v1beta1 as cloudwatcheventsv1beta1
